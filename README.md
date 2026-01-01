@@ -22,9 +22,7 @@ El proyecto se divide en dos módulos principales:
     * Detección de anomalías basada en el error de reconstrucción (Autoencoder).
 
 ## 📊 Resultados Preliminares (Dataset de Muestra)
-Se ha logrado la extracción exitosa de vectores de movimiento, identificando patrones claros en la locomoción humana (ruido en el eje Yaw/Pitch) vs. la linealidad artificial.
-
-![Biometric Analysis Graph]
+Se ha logrado la extracción exitosa de vectores de movimiento, identificando patrones claros en la locomoción humana (ruido en el eje Yaw/Pitch) vs. la linealidad artificial utilizando como base para mi investigacion la ya documentada y explorada API de Spigot.
 
 <img width="1200" height="1000" alt="Code_Generated_Image" src="https://github.com/user-attachments/assets/f70c7edf-db11-4b50-a7d0-f007c9052ec3" />
 
