@@ -7,13 +7,13 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
 ## 📑 Abstract
-Dat-Sentinel es un sistema de **ciberseguridad basado en biometría conductual**. El proyecto utiliza el entorno de sandbox de *Minecraft* (vía Spigot API) para la recolección de datos vectoriales de movimiento humano (6DOF: X, Y, Z, Pitch, Yaw, Time). El objetivo es entrenar una Red Neuronal Recurrente (LSTM) capaz de distinguir entre patrones de movimiento humano orgánico y scripts automatizados (bots) con alta precisión, proponiendo una alternativa no intrusiva a los CAPTCHAs tradicionales.
+Data-Sentinel es un sistema de **ciberseguridad basado en biometría conductual**. El proyecto utiliza el entorno de sandbox de *Minecraft* (vía Spigot API) para la recolección de datos vectoriales de movimiento humano (6DOF: X, Y, Z, Pitch, Yaw, Time). El objetivo es entrenar una Red Neuronal Recurrente (LSTM) capaz de distinguir entre patrones de movimiento humano orgánico y scripts automatizados (bots) con alta precisión, proponiendo una alternativa no intrusiva a los CAPTCHAs tradicionales.
 
 ## 📐 Arquitectura del Sistema
 El proyecto se divide en dos módulos principales:
 
 1.  **Módulo de Ingesta (Java/Spigot):**
-    * Captura eventos `PlayerMoveEvent` en tiempo real.
+    * Captura eventos `PlayerMoveEvent` en tiempo real (PMV.
     * Calcula diferenciales (Deltas) de posición y rotación.
     * Normaliza y exporta vectores de comportamiento a datasets CSV.
 2.  **Módulo de Análisis (Python/TensorFlow):**
@@ -33,7 +33,7 @@ Se ha logrado la extracción exitosa de vectores de movimiento, identificando pa
 ### Requisitos
 * Java Development Kit (JDK) 17+
 * Python 3.9+
-* Spigot/Paper Server 1.20+
+* Spigot/Paper Server 1.20+ para recoleccion de data
 
 ### Ejecución del Modelo (Python)
 ```bash
