@@ -7,9 +7,9 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
 ## 📑 Abstract
-Data-Sentinel es un sistema de recoleccion de datos para un futuro proyecto de **ciberseguridad basado en biometría conductual**. El proyecto utiliza el entorno de *Minecraft* (vía Spigot API) para la recolección de datos vectoriales de movimiento humano (6DOF: X, Y, Z, Pitch, Yaw, Time) para analisis, limpieza y estudio posterior. El objetivo es entrenar una Red Neuronal Recurrente (LSTM) capaz de distinguir entre patrones de movimiento humano y scripts automatizados (bots) con alta precisión, proponiendo una alternativa no intrusiva a los CAPTCHAs tradicionales.
+Data-Sentinel es un sistema de recoleccion de datos y una propuesta para un futuro proyecto de **ciberseguridad basado en biometría conductual**. El proyecto utilizaria el entorno de *Minecraft* (vía Spigot API) para la recolección de datos vectoriales de movimiento humano (6DOF: X, Y, Z, Pitch, Yaw, Time) para analisis, limpieza y estudio posterior. El objetivo es entrenar una Red Neuronal Recurrente (LSTM) capaz de distinguir entre patrones de movimiento humano y scripts automatizados (bots) con alta precisión, proponiendo una alternativa no intrusiva a los CAPTCHAs y Anti-Bot tradicionales.
 
-Nota al margen: Actualmente evaluo usar PacketEvents de ProtocolLib para tener acceso mas directo al protocolo de red de Minecraft al momento de escribir esto, por ahora el proyecto se enfoca en usar Análisis Semántico para obtener movimiento consistente de Biometría Conductual que analizar, es una prueba conceptual en mi tiempo libre que espero escalar y poder contrastar con datos futuros... Evaluo opciones y escucho sugerencias
+Nota al margen: Al momento de escribir esto evaluo usar PacketEvents de ProtocolLib para tener acceso mas directo al protocolo de red de Minecraft(pero sigo aprendiendo), por ahora el proyecto se enfoca en usar Análisis Semántico para obtener movimiento consistente de Biometría Conductual que analizar, es una prueba conceptual en mi tiempo libre que espero escalar y poder contrastar con datos futuros... Evaluo opciones y escucho sugerencias
 
 ## 📐 Arquitectura del Sistema
 El proyecto se divide en dos módulos principales:
