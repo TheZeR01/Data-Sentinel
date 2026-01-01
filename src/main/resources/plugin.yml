@@ -1,0 +1,4 @@
+name: Data-Sentinel
+version: '${project.version}'
+main: com.thezer01.datasentinel.main
+api-version: '1.21'
