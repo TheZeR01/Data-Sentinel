@@ -1,4 +1,4 @@
-# Sentinel-Flow: Behavioral Biometrics Acquisition & Analysis Protocol
+# Data-Sentinel: Behavioral Biometrics Acquisition & Analysis Protocol
 ### Detección de Anomalías de Movimiento mediante Deep Learning (LSTM)
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
 ## 📑 Abstract
-Sentinel-Flow es un sistema de **ciberseguridad basado en biometría conductual**. El proyecto utiliza el entorno de sandbox de *Minecraft* (vía Spigot API) para la recolección de datos vectoriales de movimiento humano (6DOF: X, Y, Z, Pitch, Yaw, Time). El objetivo es entrenar una Red Neuronal Recurrente (LSTM) capaz de distinguir entre patrones de movimiento humano orgánico y scripts automatizados (bots) con alta precisión, proponiendo una alternativa no intrusiva a los CAPTCHAs tradicionales.
+Dat-Sentinel es un sistema de **ciberseguridad basado en biometría conductual**. El proyecto utiliza el entorno de sandbox de *Minecraft* (vía Spigot API) para la recolección de datos vectoriales de movimiento humano (6DOF: X, Y, Z, Pitch, Yaw, Time). El objetivo es entrenar una Red Neuronal Recurrente (LSTM) capaz de distinguir entre patrones de movimiento humano orgánico y scripts automatizados (bots) con alta precisión, proponiendo una alternativa no intrusiva a los CAPTCHAs tradicionales.
 
 ## 📐 Arquitectura del Sistema
 El proyecto se divide en dos módulos principales:
@@ -24,7 +24,7 @@ El proyecto se divide en dos módulos principales:
 ## 📊 Resultados Preliminares (Dataset de Muestra)
 Se ha logrado la extracción exitosa de vectores de movimiento, identificando patrones claros en la locomoción humana (ruido en el eje Yaw/Pitch) vs. la linealidad artificial.
 
-![Biometric Analysis Graph](ruta_de_tu_imagen_aqui.png)
+![Biometric Analysis Graph](<img width="1200" height="1000" alt="Code_Generated_Image" src="https://github.com/user-attachments/assets/5e2a9bb7-2918-472a-908d-4f039b1c54f1" />)
 *(Fig 1. Visualización de los Deltas de movimiento. Nótese la variabilidad orgánica en los ejes de rotación Pitch/Yaw característicos de la interacción con mouse humano).*
 
 ## 🚀 Instalación y Uso
