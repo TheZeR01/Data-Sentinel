@@ -24,7 +24,10 @@ El proyecto se divide en dos módulos principales:
 ## 📊 Resultados Preliminares (Dataset de Muestra)
 Se ha logrado la extracción exitosa de vectores de movimiento, identificando patrones claros en la locomoción humana (ruido en el eje Yaw/Pitch) vs. la linealidad artificial.
 
-![Biometric Analysis Graph](<img width="1200" height="1000" alt="Code_Generated_Image" src="https://github.com/user-attachments/assets/5e2a9bb7-2918-472a-908d-4f039b1c54f1" />)
+![Biometric Analysis Graph]
+
+<img width="1200" height="1000" alt="Code_Generated_Image" src="https://github.com/user-attachments/assets/f70c7edf-db11-4b50-a7d0-f007c9052ec3" />
+
 *(Fig 1. Visualización de los Deltas de movimiento. Nótese la variabilidad orgánica en los ejes de rotación Pitch/Yaw característicos de la interacción con mouse humano).*
 
 ## 🚀 Instalación y Uso
