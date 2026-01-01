@@ -12,10 +12,10 @@ Data-Sentinel es un sistema de **ciberseguridad basado en biometría conductual*
 ## 📐 Arquitectura del Sistema
 El proyecto se divide en dos módulos principales:
 
-1.  **Módulo de Ingesta (Java/Spigot):**
+1.  **Módulo de Ingesta y recolección (Java/Spigot):**
     * Captura eventos `PlayerMoveEvent` en tiempo real (PMV.
     * Calcula diferenciales (Deltas) de posición y rotación.
-    * Normaliza y exporta vectores de comportamiento a datasets CSV.
+    * Normaliza y exporta vectores de comportamiento a datasets en formato CSV.
 2.  **Módulo de Análisis (Python/TensorFlow):**
     * Preprocesamiento de series temporales.
     * Arquitectura LSTM (Long Short-Term Memory) para clasificación secuencial.
@@ -26,7 +26,7 @@ Se ha logrado la extracción exitosa de vectores de movimiento, identificando pa
 
 <img width="1200" height="1000" alt="Code_Generated_Image" src="https://github.com/user-attachments/assets/f70c7edf-db11-4b50-a7d0-f007c9052ec3" />
 
-*(Fig 1. Visualización de los Deltas de movimiento. Nótese la variabilidad orgánica en los ejes de rotación Pitch/Yaw característicos de la interacción con mouse humano).*
+*(Fig 1. Visualización de los Deltas de movimiento. Nótese la variabilidad orgánica en los ejes de rotación Pitch/Yaw característicos de la interacción con mouse humano que los sistemas de automatizacion y bots actuales no estan diseñados replicar, es la firma digital que se necesita estudiar).*
 
 ## 🚀 Instalación y Uso
 
