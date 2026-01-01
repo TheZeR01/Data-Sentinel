@@ -26,7 +26,7 @@ Se ha logrado la extracción exitosa de vectores de movimiento, identificando pa
 
 <img width="1200" height="1000" alt="Code_Generated_Image" src="https://github.com/user-attachments/assets/f70c7edf-db11-4b50-a7d0-f007c9052ec3" />
 
-*(Fig 1. Visualización de los Deltas de movimiento. Nótese la variabilidad orgánica en los ejes de rotación Pitch/Yaw característicos de la interacción con mouse humano que los sistemas de automatizacion y bots actuales no estan diseñados replicar, es la firma digital que se necesita estudiar).*
+*(Fig 1. Visualización de los Deltas de movimiento. Nótese la variabilidad orgánica en los ejes de rotación Pitch/Yaw característicos de la interacción con mouse humano que los sistemas de automatizacion y bots actuales que usan heuristica no estan diseñados para replicar, es la firma digital que se necesita estudiar).*
 
 ## 🚀 Instalación y Uso
 
