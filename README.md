@@ -6,8 +6,8 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
-## 📑 Abstract
-Data-Sentinel es un sistema de recoleccion de datos y una propuesta para un futuro proyecto de **ciberseguridad basado en biometría conductual**. El proyecto utilizaria el entorno de *Minecraft* (vía Spigot API) para la recolección de datos vectoriales de movimiento humano (6DOF: X, Y, Z, Pitch, Yaw, Time) para analisis, limpieza y estudio posterior. El objetivo es entrenar una Red Neuronal Recurrente (LSTM) capaz de distinguir entre patrones de movimiento humano y scripts automatizados (bots) con alta precisión, proponiendo una alternativa no intrusiva a los CAPTCHAs y Anti-Bot tradicionales.
+## 📑 Premisa
+Data-Sentinel es un sistema y/o protocolo de recoleccion de datos que a su vez busca ser una propuesta para un futuro proyecto de **ciberseguridad basado en biometría conductual**. El proyecto utilizaria el entorno de *Minecraft* (vía Spigot de API) para la recolección de datos vectoriales de movimiento humano (6DOF: X, Y, Z, Pitch, Yaw, Time) para analisis, limpieza y estudio posterior. El objetivo es entrenar una Red Neuronal Recurrente (LSTM) capaz de distinguir entre patrones de movimiento humano y scripts automatizados (bots) con alta precisión, proponiendo una alternativa no intrusiva a los CAPTCHAs y Anti-Bot tradicionales.
 
 Nota al margen: Al momento de escribir esto evaluo usar PacketEvents de ProtocolLib para tener acceso mas directo al protocolo de red de Minecraft (pero sigo aprendiendo y soy bastante lento), por ahora solo estoy prototipando el proyecto, el cual se enfoca SOLO en usar Análisis Semántico para obtener movimiento consistente de Biometría Conductual que analizar y con el cual entrenar al modelo en patrones que se puedan aplicar a otros proyectos, es una prueba conceptual en mi tiempo libre que espero escalar y poder contrastar con datos futuros, la finalidad del proyecto es la eficiencia computacional... Evaluo opciones y escucho sugerencias
 
