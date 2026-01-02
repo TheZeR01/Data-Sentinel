@@ -41,8 +41,10 @@ Se ha logrado la extracción exitosa de vectores de movimiento, identificando pa
 
 ## 🚀 Instalación y Uso
 
-### ⚠️ Advertencia
-Actualmente esto contiene codigo **CRUDO**, para nada esta recomendado usarse en servidores en producción **USAR EN UN SERVIDOR CONTROLADO, DE PREFERENCIA LOCALHOST**.
+### ⚠️ Advertencia ⚠️
+Actualmente esto contiene codigo **CRUDO** en etapas de conceptualizacion inicial, para nada esta recomendado usarse en servidores en producción.
+
+**DE USARSE DEBE DE SER SERVIDOR CONTROLADO, DE PREFERENCIA LOCALHOST**.
 
 ### Requisitos
 * Java Development Kit (JDK) 17+
