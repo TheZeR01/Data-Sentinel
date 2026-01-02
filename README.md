@@ -41,6 +41,9 @@ Se ha logrado la extracción exitosa de vectores de movimiento, identificando pa
 
 ## 🚀 Instalación y Uso
 
+⚠️ Advertencias
+Actualmente esto contiene codigo **CRUDO**, para nada esta recomendado usarse en servidores en producción **USAR EN UN SERVIDOR CONTROLADO, DE PREFERENCIA LOCALHOST**.
+
 ### Requisitos
 * Java Development Kit (JDK) 17+
 * Python 3.9+
@@ -50,3 +53,4 @@ Se ha logrado la extracción exitosa de vectores de movimiento, identificando pa
 ```bash
 pip install -r requirements.txt
 python train_model.py
+
