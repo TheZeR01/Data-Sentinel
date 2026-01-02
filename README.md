@@ -7,9 +7,9 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
 ## 📑 Premisa
-Data-Sentinel es un sistema y/o protocolo de recoleccion de datos que a su vez busca ser una propuesta para un futuro proyecto de **ciberseguridad basado en biometría conductual**. El proyecto utilizaria el entorno de *Minecraft* (vía Spigot de API) para la recolección de datos vectoriales de movimiento humano (6DOF: X, Y, Z, Pitch, Yaw, Time) para analisis, limpieza y estudio posterior. El objetivo es entrenar una Red Neuronal Recurrente (LSTM) capaz de distinguir entre patrones de movimiento humano y scripts automatizados (bots) con alta precisión, proponiendo una alternativa no intrusiva a los CAPTCHAs y Anti-Bot tradicionales.
+Data-Sentinel es un sistema y/o protocolo de recoleccion de datos que a su vez busca ser una propuesta para un futuro proyecto de **ciberseguridad basado en biometría conductual** Open Source. El proyecto utilizaria el entorno de *Minecraft* (vía API de Spigot) para la recolección de datos vectoriales de movimiento humano (6DOF: X, Y, Z, Pitch, Yaw, Time) para analisis, limpieza y estudio posterior. El objetivo es entrenar una **Red Neuronal Recurrente (LSTM)** capaz de distinguir entre patrones de movimiento humano y scripts automatizados (bots) con alta precisión, proponiendo una alternativa no intrusiva a los CAPTCHAs y Anti-Bot tradicionales.
 
-Nota al margen: Al momento de escribir esto evaluo usar PacketEvents de ProtocolLib para tener acceso mas directo al protocolo de red de Minecraft (pero sigo aprendiendo y soy bastante lento), por ahora solo estoy prototipando el proyecto en primera instancia, siendo una idea ambiciosa a largo plazo, el cual se enfoca SOLO en usar Análisis Semántico para obtener movimiento consistente de Biometría Conductual que analizar y con el cual entrenar al modelo en patrones que se puedan aplicar a otros proyectos, es una prueba conceptual en mi tiempo libre que espero escalar y poder contrastar con datos futuros, la finalidad del proyecto es la eficiencia computacional... Evaluo opciones y escucho sugerencias
+Nota al margen: Al momento de escribir esto evaluo usar **PacketEvents** de **ProtocolLib** para tener acceso mas directo al protocolo de red de Minecraft (pero sigo aprendiendo... Y soy bastante lento, me tomare mi tiempo para aprender lo que deba), por ahora solo estoy prototipando el proyecto en primera instancia, siendo una idea ambiciosa a largo plazo, el cual se enfoca por ahora **SOLO** en usar Análisis Semántico para los datos proveniente de la API de Spigot y asi obtener movimiento consistente de Biometría Conductual con el cual entrenar al modelo en patrones que se puedan aplicar a otros proyectos y sistemas, es una prueba conceptual en mi tiempo libre que espero escalar y poder contrastar con datos futuros, la finalidad del proyecto es obtener datos limpios para un modelo de IA enfocado en la **eficiencia computacional** para sistemas obsoletos... Evaluo opciones y escucho sugerencias
 
 ## 📐 Arquitectura del Sistema
 El proyecto se divide en dos módulos principales:
@@ -29,6 +29,15 @@ Se ha logrado la extracción exitosa de vectores de movimiento, identificando pa
 <img width="1200" height="1000" alt="Code_Generated_Image" src="https://github.com/user-attachments/assets/f70c7edf-db11-4b50-a7d0-f007c9052ec3" />
 
 *(Fig 1. Visualización de los Deltas de movimiento. Nótese la variabilidad orgánica en los ejes de rotación Pitch/Yaw característicos de la interacción con mouse humano que los sistemas de automatizacion y bots actuales que usan heuristica no estan diseñados para replicar, es la firma digital que se necesita estudiar).*
+
+## 🌱 Bases y referencias
+1. Estudio y entrenamiento de una red neuronal utilizando como entorno de pruebas **Minecraft** y llevado a cabo por **OpenAI**
+
+   * **https://openai.com/index/vpt/**
+
+2. Blog/Post de **Medium** explicando las dificultades actuales para detectar **comportamientos anomalos** donde se habla a detalle sobre la **biometría conductual** o **biometría del comportamiento**
+
+   * **https://ayanh.medium.com/utilizing-behavioral-biometrics-to-detect-bots-a-deep-dive-1bb2c52ae7f6**
 
 ## 🚀 Instalación y Uso
 
