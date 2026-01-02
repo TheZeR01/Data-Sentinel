@@ -1,10 +1,19 @@
-# Data-Sentinel: Behavioral Biometrics Acquisition & Analysis Protocol
-
-### Detección de Anomalías de Movimiento mediante Deep Learning (LSTM)
+<div align="center">
+  <h1>Data-Sentinel</h1>
+  <h3>Behavioral Biometrics Acquisition & Analysis Protocol.</h3>
+  <h3>
+    
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
+    
+  </h3>
+
+</div>
+
+### Detección de Anomalías de Movimiento mediante Deep Learning (LSTM)
+
 
 ## 📑 Premisa
 
