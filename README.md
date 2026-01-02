@@ -16,6 +16,9 @@ Nota al margen: Al momento de escribir esto, evalúo usar **PacketEvents** o **P
 
 El proyecto se divide en dos módulos principales:
 
+<img width="429" height="700" alt="Diagrama sin título drawio (6) (2)" src="https://github.com/user-attachments/assets/40a3a87d-a1f1-472f-8e72-fa3c59a3d366" />
+
+
 1. **Módulo de Ingesta y recolección (Java/Spigot):**
    * Captura eventos `PlayerMoveEvent` en tiempo real.
    * Calcula diferenciales (Deltas) de posición y rotación.
@@ -25,6 +28,7 @@ El proyecto se divide en dos módulos principales:
    * Preprocesamiento de series temporales.
    * Arquitectura LSTM (Long Short-Term Memory) para clasificación secuencial.
    * Detección de anomalías basada en el error de reconstrucción (Autoencoder).
+   
 
 ## 📊 Resultados Preliminares (Dataset de Muestra)
 
