@@ -57,6 +57,10 @@ Se ha logrado la extracción exitosa de vectores de movimiento, identificando pa
    * **[https://ayanh.medium.com/utilizing-behavioral-biometrics-to-detect-bots-a-deep-dive-1bb2c52ae7f6](https://ayanh.medium.com/utilizing-behavioral-biometrics-to-detect-bots-a-deep-dive-1bb2c52ae7f6)**
 
 
+3. Paper que utiliza **Minecraft** como entorno de pruebas usando metodologias similares a las aplicadas pero bajo el algoritmo **Random Forest** y un matiz diferente:
+   * **[2110.11080v1.pdf](https://github.com/user-attachments/files/24545430/2110.11080v1.pdf)**
+
+
 
 ## 🚀 Instalación y Uso
 
